@@ -33,6 +33,10 @@ A pack only overrides the icons it contains. To restore everything in SimpleUI, 
 
 A pack can be partial: icons you don't change keep the ZenOS or KOReader defaults. To go back, turn the Custom icons switch off or choose another pack, then restart. ZenOS rejects files over 5 MiB.
 
+### Templates (saved in your browser)
+
+Click **Templates** in the bottom bar to save everything you have chosen so far (icons of all tabs and the pack names) under a name, and to load, replace or delete saved templates later. Templates live only in your browser (IndexedDB), on that device: nothing is uploaded, and clearing the browser data deletes them. They are tied to the page address, so a copy of the file kept in another place, or opened from another site, has its own list.
+
 ## Features
 
 - **Three tabs:** KOReader (102 icons), SimpleUI (44 icon slots) and ZenOS (62 icons), each with its own instructions and buttons.
@@ -40,6 +44,7 @@ A pack can be partial: icons you don't change keep the ZenOS or KOReader default
 - **Current icon next to your replacement,** with a live preview. Remove a single change at any time, or clear them all.
 - **Generates only what you changed:** a `koreader/icons` zip for KOReader, or a ready-to-install pack (with `pack.lua`) for SimpleUI.
 - **Default packs:** download the original icons to restore them.
+- **Templates:** save, load and delete your icon selections locally in the browser, so you can come back to them later.
 - **Languages:** English (default), Português (Brasil) and Español. Your choice is remembered.
 - **Single file, no dependencies,** light and dark themes.
 
